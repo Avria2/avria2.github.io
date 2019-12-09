@@ -17,6 +17,11 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 	</head>
+	<style>
+		body {color: #404040;}
+		ul {padding-left: 50px;}
+		a {text-decoration: none;color:#6495ED;font-weight:bold;}
+		</style>
 	<body class="is-preload">
 
 		<!-- Wrapper-->
@@ -25,8 +30,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#" class="icon fa-home"><span>Home</span></a>
-						<a href="#aboutme" class="icon fa-user"><span>About Me</span></a>
-						<a href="#work" class="icon fa-folder"><span>Work</span></a>
+						<a href="#aboutme" class="icon fa-user"><span>Career Goals</span></a>
+						<a href="#resume" class="icon fa-folder"><span>Resume</span></a>
+						<a href="#work" class="icon fa-briefcase"><span>Work</span></a>
 						<a href="#contactme" class="icon fa-envelope"><span>Contact Me</span></a>
 					</nav>
 
@@ -34,25 +40,61 @@
 					<div id="main">
 
 						<!-- Me -->
-							<article id="home" class="panel intro">
+							<!--<article id="home" class="panel intro">
 								<header>
 									<h1>Hi, I'm Linda Wang</h1>
-									<p>Aspiring Software Developer</p>
-									<body>
-										<br>
-										I'm a second-year studying Computer Science and Data Analytics at The Ohio State University. 
-									</body>
+									<p>Aspiring Software Developer<br><br></p>
+									I'm a second-year studying Computer Science and Data Analytics at The Ohio State University.
+										
 								</header>
 								<a href="#aboutme" class="jumplink pic">
 									<span class="arrow icon fa-chevron-right"><span>More about me</span></span>
 									<img src="images/me.JPG" alt="" />
 								</a>
+							</article>-->
+
+							<article id="home" class="panel">
+								<header>
+									<h1>Hi, I'm Linda Wang</h1>
+									<p>Aspiring Software Developer</p>
+									<body>
+									<br>
+										I'm a second-year double majoring in Computer Science and Data Analytics at The Ohio State University. I started attending Ohio State in Autumn 2018, and I'm expecting to graduate in Spring of 2022. I’m currently looking for a software engineering internship for Summer 2020.
+										<br>
+										<br>
+										<b>I love computer science because it's a field that is always expanding.</b> One of my favorite things about this field is how fast it grows -- new frameworks and technologies pop up every year, and in turn, you never stop learning, and you never stop growing.
+										<br>
+										<br>
+										This website serves as a career portfolio to showcase my work and provide some information about myself. Here's an overview of what can be found on this website.
+										<br>
+										<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#home">1. Home</a>
+										<br>
+
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#aboutme">2. Career Goals</a>
+										<br>
+
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#resume">3. Resume</a>
+										<br>
+
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#work">4. Work Samples</a>
+										<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Personal Projects
+										<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Academic Projects
+										<br>
+
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#contactme">5. Contact Information</a>
+
+									</body>
+
+								</header>
 							</article>
 
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Work</h2>
+									<h2>Personal Projects</h2>
 								</header>
 								<p>
 									You can see some pictures of my work below, and download the actual program to try it out if you'd like. You'll need to have Java installed to run these, though. I use Java primarily, but also have experience in C/C++, Javascript, and other languages as well.
@@ -73,7 +115,7 @@
 									</div>
 								</section>
 
-								<body>
+								<body id="project1description">
 									With its lightweight interface, Polygon is easy to use. You can draw any kind of shape and see their data by double clicking on it on the list to the right. You can delete shapes you no longer want, as well. The program will automatically save and load when you exit and open it.
 									<br>
 									<br>
@@ -102,7 +144,19 @@
 									Districts combines accessibility and functionality with its ability to easily manipulate large amounts of data. The program is pre-populated with a list of students, but can be adapted to work with anything from employees to sports players. There's no need to worry about unsaved changes, either, as the program will automatically save and load when you exit and open it.
 									<br>
 									<br>
-									You can download Districts by clicking <a href="assets/Districts.zip" download style="color: #61B9FF">here</a>. Just extract the .zip file, and run the .jar.
+									You can download Districts by clicking <a href="assets/Districts.zip" download>here</a>. Just extract the .zip file, and run the .jar.
+								</body>
+								<br><br>
+								<h2>Academic Projects</h2>
+								<br>
+								<h3>Infographic Project</h3>
+								<br>
+								<div class="col-4 col-6-medium col-12-small">
+									<a href="images/cryptids.PNG" data-lightbox="cryptids" class="image fit"><img src="images/cryptids.PNG" alt=""></a>
+								</div>
+								<br>
+								<body>
+									This project was completed as a part of my Technical Communication class. The purpose was to create an infographic that conveyed information to the reader. I worked on a group with two other people. Throughout the design process, we paid very careful attention to the elements of design, and how we could most effectively convey this information in a narrative format. 
 								</body>
 
 							</article>
@@ -110,40 +164,43 @@
 						<!-- About Me -->
 							<article id="aboutme" class="panel">
 								<header>
-									<h2>About Me</h2>
+									<h2>Career Goals</h2>
 								</header>
 
 								<body>
-									<i>Looking for a copy of my resume? You can find it <a href="assets/Linda_Wang_Fall18Resume_Web.pdf" download style="color: #61B9FF">here</a></i>.
+									I’m currently looking for a software engineering internship for Summer 2020, where teamwork, diversification of talent, and Agile principles of customer satisfaction and flexibility are assets.
+									<br>
+									<br>
+									I target internships because I enjoy making meaningful, tangible contributions to a team in a business environment. In both of my previous internships, I made tools for developers which helped them analyze crash reports or increase their speed of production. I found that the skills I mentioned previously were the most prominent at my internships.
+									<br>
+									<br>
+									Being able to work on a team is an extremely important soft skill, as all projects in a production environment are simply too large for one person to handle alone. Working together and making sure that everyone is on the same page is something that I place heavy value on.
+									<br>
+									<br>
+									Having a diverse portfolio of different languages, frameworks, and technologies is also important. Languages such as Java, C/C++, R, Python, .NET, etc. are common in many tech stacks. Working with a diverse tech stack is not only exciting -- it teaches you how to be familiar with a variety of technologies. A project is almost never limited to just one language.
+									<br>
+									<br>
+									Agile was a methodology that my teams operated under at my past two internships. I thought it was an extremely effective one, as it is essentially a process that iterates on user feedback. Being able to get frequent user feedback helps shape a project, and virtually ensures that the final design and functionality of an application will meet the users' needs.
+									<br>
+									<br>
+									As a student, it is my responsibility to learn as much as I can to prepare for entering the job market. I’ve always loved learning, and I’ve taken full advantage of the resources here at Ohio State University to do so. I’m double majoring in Data Analytics along with Computer Science, because I know that I will be able to apply my experience working with and analyzing large sets of data along with software development.
+									<br>
+									<br>
+
 								</body>
+							</article>
+
+							<article id="resume" class="panel">
 								<header>
-									<br>
-									<h3>I took my first CS class...</h3>
+									<h2>Resume</h2>
 								</header>
-
 								<body>
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...as a sophomore at William Mason High School. If I told my younger self that I'd be pursuing a career in it, she would think that I was joking. It was unlike any other class I had taken before up to that point, being more application than theory. While it took me a while to warm up to it, I eventually got the hang of programming. From there, I could only improve, and improve I did.
-									<br>
-									<br>
-									<b style="color: #727272">Computer science became my favorite subject in high school.</b> In between the school years of Visual Basic, C++, and Java, I taught myself HTML & CSS during the summer. I earned an Outstanding Award in my AP Computer Science class, and graduated from high school in the top 5 percent of my class as a National Merit Finalist.
-									<br>
-									<br>
+									<div align="center">
+										<iframe width="800" height="400" src="assets/2367_Linda_Wang_Fall19Resume_CS.pdf">
+	    								</iframe>
+    								</div>
 								</body>
-
-								<header>
-									<br>
-									<h3>Right now, I'm working...</h3>
-								</header>
-
-								<body>
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...towards a double major in Computer Science & Engineering and Data Analytics. I'm expecting to graduate in Spring 2022. It's crazy to look back and see how far I've come, and even crazier to see how far I have yet to go. 
-									<br>
-									<br>
-									<b style="color: #727272">I love computer science because it's a field that is always expanding.</b> My education won't end when I graduate college, or even after I get a new job and complete training. I'll continue to learn on my own as well, whether it's by learning a new computing language or reading up on new developments in AI or machine learning.
-									<br>
-									<br>
-									<b style="color: #727272">I'm learning R right now, and polishing up my skills in Python.</b> I can't wait to look back and see how far I've come from here soon, too! By then, I'll have been able to add another skill to my toolset.
-								</body>
+								
 							</article>
 
 							<article id="contactme" class="panel">
@@ -152,37 +209,15 @@
 								</header>
 
 								<body>
-									You can message me at <b style="color: #727272">lw.lindy2000@gmail.com</b> or at <b style="color: #727272">wang.11338@osu.edu</b>. Alternatively, you can find my Handshake profile <a href="https://app.joinhandshake.com/users/13980280" style="color: #61B9FF">here</a> or my LinkedIn <a href="https://www.linkedin.com/in/lindaywang" style="color: #61B9FF">here</a>.
+									You can message me at <b style="color: #727272">wang.11338@osu.edu</b>.
+									<br><br>
+									Alternatively, you can find my Handshake profile <a href="https://app.joinhandshake.com/users/13980280" style="color: #61B9FF">here</a> or my LinkedIn <a href="https://www.linkedin.com/in/lindaywang" style="color: #61B9FF">here</a>.
 									<br>
 									<br>
 									I'm currently looking for an internship for Summer 2020, but I'm always up for a chat! I'd love to get in contact with you.
 									<br>
 									<br>
 									Thanks for reaching out to me!
-
-									<!--<form action="contactform.php" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>-->
-
-
 								</body>
 
 					</div>
